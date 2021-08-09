@@ -14,8 +14,47 @@
 .btn-primary{
     background-color: #527ff1!important;
     border-color: #527ff1!important;
+    color: black!important;
 }
 .btn-primary:hover{
     background-color: #476ed1!important;
     border-color: #476ed1!important;
+}
+.learning{
+    color: #004aad;
+}
+.section1{
+
+    background-image: url("C:/Users/cmath/Desktop/programas html/gtraniee/templete vini/images/section1-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    filter: grayscale(30%);
+    padding-bottom: 150px!important;
+    padding-top: 150px!important;
+}
+.section2{
+
+    background-image: url("C:/Users/cmath/Desktop/programas html/gtraniee/templete vini/images/section22.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    padding-bottom: 150px!important;
+    padding-top: 150px!important;
+}
+.se1{
+    color: #004aad;
+}
+.wall{
+    color: black!important;
+    height: 100px;
+}
+.wall-1{
+
+    background-color: #003f91!important;
+    background-repeat: no-repeat ;
+    background-position: center;
+    padding-bottom: 50px!important;
+    padding-top: 200px!important;
+    height: 50px!important;
 }
