@@ -1,0 +1,21 @@
+.navbar-light{
+    filter: grayscale(50%);
+}
+.bg-light{
+    background-color: white!important;
+    height: 30px;
+}
+.bg-primary{
+    background-color: #003f91!important;
+}
+.products{
+    color: #004aad;
+}
+.btn-primary{
+    background-color: #527ff1!important;
+    border-color: #527ff1!important;
+}
+.btn-primary:hover{
+    background-color: #476ed1!important;
+    border-color: #476ed1!important;
+}
