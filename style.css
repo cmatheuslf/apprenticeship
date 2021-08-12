@@ -45,10 +45,7 @@
 .se1{
     color: #004aad;
 }
-.wall{
-    color: black!important;
-    height: 100px;
-}
+
 .wall-1{
 
     background-color: #003f91!important;
@@ -64,4 +61,9 @@
     padding-top: 10px;
     font-size: 15px;
     font-weight: bold;
+}
+.slide{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    background-color: #004aad;
 }
