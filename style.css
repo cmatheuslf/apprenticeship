@@ -52,9 +52,16 @@
 .wall-1{
 
     background-color: #003f91!important;
-    background-repeat: no-repeat ;
-    background-position: center;
     padding-bottom: 50px!important;
     padding-top: 200px!important;
     height: 50px!important;
+}
+.pe{
+    padding-right: 300px;
+    font-size: 13px;
+}
+.title{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
