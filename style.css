@@ -14,7 +14,6 @@
 .btn-primary{
     background-color: #527ff1!important;
     border-color: #527ff1!important;
-    color: black!important;
 }
 .btn-primary:hover{
     background-color: #476ed1!important;
@@ -36,11 +35,11 @@
 .section2{
 
     background-image: url("images/section22.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
-    background-repeat: no-repeat ;
     background-position: center;
-    padding-bottom: 150px!important;
-    padding-top: 150px!important;
+    padding-top: 100px!important;
+    height: 300px;
 }
 .se1{
     color: #004aad;
@@ -53,17 +52,47 @@
     padding-top: 200px!important;
     height: 50px!important;
 }
-.pe{
-    padding-right: 300px;
-    font-size: 13px;
-}
-.title{
-    padding-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-}
 .slide{
     padding-left: 20% !important;
     padding-right: 20% !important;
     background-color: #004aad;
+}
+.text-sec2{
+    font-size: 17px;
+}
+.text-sec2-2{
+    font-size: 12px;
+}
+.bg-dark{
+    background-color: #272020 !important;
+}
+.navgra{
+    height: 80px;
+}
+.nav-2{
+    width: 50px !important;
+}
+.cart{
+    padding-left:  60%!important;
+}
+.navsm{
+    height: 50px!important;
+    padding-bottom: 5px!important;
+}
+.cartsm{
+    height: 50px!important;
+}
+.sec1sm{
+    padding-left: 30%;
+    background-image: url("images/section1-1.jpg");
+    background-size: 170%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    filter: grayscale(30%);
+    padding-bottom: 150px!important;
+    padding-top: 190px!important;
+    font-size: 18px;
+}
+.futp{
+    padding-left: 20%;
 }

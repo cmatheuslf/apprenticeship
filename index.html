@@ -9,25 +9,74 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-light bg-light px-2">
+        <header class="d-none d-md-block">
+            <nav class="navbar navgra fixed-top navbar-expand-lg navbar-light bg-light px-2 pb-5 pt-5">
                 <a class="navbar-brand" href="#">
                     <img src="images\logo2.png" height="50px">
                 </a>
-                <a  href="#">
-                    <h5>Cursos</h5>
-                </a>
-                <a  href="#">
-                    <h5>Login</h5>
-                </a>
-                <a  href="#">
-                    <h5>Cadastre-se</h5>
-                </a>
-                <a class="navbar-brand" href="#">
+                <ul class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle pt-4" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Desenvovimento</a>
+                        <a class="dropdown-item" href="#">Culinária</a>
+                        <a class="dropdown-item" href="#">Ensino médio</a>
+                      </div>
+                    </li>
+                    <li class="nav-item pl-5 pt-4">
+                        <a  href="#" class="text-decoration-none">
+                            Login
+                        </a>
+                    </li>
+                    <li class="nav-item pl-5 pt-4 pr-5  ">
+                        <a  href="#" class="text-decoration-none">
+                            Cadastre-se
+                        </a>
+                    </li>
+                  </ul>
+                  <a class="navbar-brand cart pl-5 pt-3" href="#">
                     <img src="images\cart.png" height="50px">
                 </a>
+            </nav> 
+            
+                
+                
         </header>
-        <section class="my-5 d-md-none section1">
+        <header class="d-md-none">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-0 pb-5 pt-3">
+                <a class="navbar-brand pt-0 mb-5 navsm" href="#">
+                    <img  class="navsm pr-5" src="images\logo2.png">
+                </a>
+                <ul class="nav nav-pills pl-0">
+                    <li class="nav-item pb-5 dropdown pl-0 pr-1">
+                      <a class="nav-link dropdown-toggle  pl-0 pt-0 pr-5 nav-2" data-toggle="dropdown" href="#" role="button" 
+                      aria-haspopup="true" aria-expanded="false">Cursos</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Desenvovimento</a>
+                        <a class="dropdown-item" href="#">Culinária</a>
+                        <a class="dropdown-item" href="#">Ensino médio</a>
+                      </div>
+                    </li>
+                    <li class="nav-item pb-5 dropdown pr-1">
+                        <a class="nav-link dropdown-toggle pt-0 pr-5 nav-2" data-toggle="dropdown" href="#" role="button" 
+                        aria-haspopup="true" aria-expanded="false">Conta</a>
+                        <div class="dropdown-menu">
+                            <a  href="#" class="dropdown-item">Login</a>
+                            <a  href="#" class="dropdown-item">Cadastre-se</a>
+                        </div>
+                      </li>
+                    <li>
+                        <a class="navbar-brand nav-2" href="#">
+                            <img src="images\cart.png"  class="pb-3 pl-3" height="50px">
+                        </a>
+                    </li>
+                </ul>
+            </nav> 
+            
+                
+                
+        </header>
+        <section class="my-5 d-md-none section1 sec1sm">
             <div class="container pt-2">
                 <div class="row justify-content-end">
                     <div class="col-sm-6 pr-5">
@@ -39,7 +88,7 @@
                 <div class="row mt-3 justify-content-end">
                     <div class="text-center mb-2 pb-5 col-sm-6 pr-5">
                         <a href="#">
-                            <button class="btn btn-primary btn-md">
+                            <button class="btn btn-primary btn-sm">
                                 Embarque já na nossa tripulação!
                             </button>
                         </a>
@@ -90,12 +139,16 @@
             </div>
         </section>
 
-        <section class="section2 py-5">
+        <section class="section2">
             <div class="container">
                 <div class="row pt-5 justify-content-start">
-                    <div class="col-md-7 mt-0 mb-5 text-white text-center">
-                        <p class="title">Está afogando-se nesse oceano de dúvidas ?</p>
-                        <p>Então a equipe da ApprenticeShip é o resgate perfeito para você, contamos com professores e cursos certificados.</p>
+                    <div class="col-md-7 text-white text-center teste  d-sm-block d-md-none">
+                        <h5>Está afogando-se nesse oceano de dúvidas ?</h5>
+                        <p class="text-sec2-2">Então a equipe da ApprenticeShip é o resgate perfeito para você, contamos com professores e cursos certificados.</p>
+                    </div>
+                    <div class="col-md-7 text-white text-center teste d-none d-md-block">
+                        <h3>Está afogando-se nesse oceano de dúvidas ?</h3>
+                        <p class="text-sec2">Então a equipe da ApprenticeShip é o resgate perfeito para você, contamos com professores e cursos certificados.</p>
                     </div>
                 </div>
             </div>
@@ -108,6 +161,7 @@
                         <h4>Marinheiro novo ?<br>Deixa que a gente ensina como que se navega</h4>
                     </div>
                 </div>
+
                 <div class="products row text-center">
                     <div class="col-lg-4 px-5 mb-5 pb-5">
                         <img src="images\pensa.png" height="150px">
@@ -125,30 +179,66 @@
             </div>
         </section>
         
-        <section class="py-5">
+        <section class="py-5 justify-content-end">
             <div class="container">
-                <div class="row  embed-responsive embed-responsive-21by9">
-                    <iframe src="https://www.youtube.com/embed/hYCUUfV3WEU" title="YouTube video player"
+                <div class="row">
+                    <div class="col embed-responsive embed-responsive-21by9">
+                        <iframe src="https://www.youtube.com/embed/hYCUUfV3WEU" title="YouTube video player"
                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
-               <div class="row justify-content-center">
-                <div class="col-sm-3 pt-5">
-                    <img src="images\google.png" height="100px">
-                </div>
-                <div class="col-sm-3 pt-5">
-                    <img src="images\skype.png" height="100px">
-                </div>
-                <div class="col-sm-3 pt-5">
-                    <img src="images\adidas.png" height="100px">
-                </div>
-                <div class="col-sm-3 pt-5">
-                    <img src="images\discord.png" height="100px">
-                </div>
-               </div>
             </div>
         </section>
-            <div id="carouselExampleIndicators" class="py-5 carousel slide" data-ride="carousel">
-                <h2 class="text-center text-white">Depoimentos</h2>
+        <section class="text-center pb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3 pt-5">
+                        <img src="images\google.png" height="100px">
+                    </div>
+                    <div class="col-sm-3 pt-5">
+                        <img src="images\skype.png" height="100px">
+                    </div>
+                    <div class="col-sm-3 pt-5">
+                        <img src="images\adidas.png" height="100px">
+                    </div>
+                    <div class="col-sm-3 pt-5">
+                        <img src="images\discord.png" height="100px">
+                    </div>
+                   </div>
+            </div>
+        </section>
+
+
+            <div id="carouselExampleIndicators" class="py-5 carousel slide d-sm-block d-md-none" data-ride="carousel">
+                <h4 class="text-center text-white">Depoimentos</h4>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images\depoi1-2.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images\depoi2-2.png">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images\depoi3-2.png">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+
+            <div id="carouselExampleIndicators" class="py-5 carousel slide d-none d-md-block" data-ride="carousel">
+                <h4 class="text-center text-white">Depoimentos</h4>
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -175,10 +265,45 @@
                 </a>
             </div>
 
-        <footer class="bg-primary">
+        <footer class="bg-dark d-none d-md-block">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 pb-4 mr-5">
+                        <a href="#">
+                            <img src="images\logoB.png" height="100px">
+                        </a>
+                    </div>
+                    <div class="col-lg-2 pt-4">
+                        <a href="#">
+                            <h5 class="text-white">Contato</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 pt-4">
+                        <a href="#">
+                            <h5 class="text-white">Sobre nós</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 pt-4">
+                        <a href="#">
+                            <h5 class="text-white">Cursos</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 pt-4">
+                        <a href="#">
+                            <h5 class="text-white">Vagas</h5>
+                        </a>
+                    </div>
+                    <div class="col-lg-12 text-center pt-5 mb-0">
+                        <p class="text-white">© 2021 ApprenticeShip Inc. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="bg-dark d-md-none text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 pb-4">
                         <a href="#">
                             <img src="images\logoB.png" height="100px">
                         </a>
